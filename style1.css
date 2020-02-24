@@ -659,7 +659,7 @@ body {
     
     .gallery_header {
         position: relative;
-        top:800px;
+        top:750px;
         left: 60px;
         width: 70%;
         height: 100px;
@@ -721,6 +721,46 @@ body {
         width: 90%;
         height: 12px;
         left: 5%;
+    }
+
+    .contact_us {
+        position: absolute;
+        top: 3000px;
+    }
+    .contact_us img{
+        position: relative;
+        top:500px;
+        left: 60px;
+        width: 50%;
+        height: 80px;
+        
+    }
+    
+    .mapouter {
+        position: relative;
+        text-align: bottom;
+        height: 500px;
+        width: 600px;
+    }
+    
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        height: 400px;
+        width: 325px;
+        top: 550px;
+        position: relative;
+        left: 35px;
+    }
+    .contact_text {
+        position: relative;
+        font-family: Open Sans;
+        font-style: normal;
+        
+        font-size: 20px;
+        top: 500px;
+        left: 50px;
+        color: #000000;
     }
 
 

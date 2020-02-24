@@ -71,8 +71,12 @@
                     <a class="nav-link" href="#sponsors">Sponsors</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="Instincts Schedule 2020.pdf" download>Schedule</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
+                    
                     
                     
                     
@@ -262,8 +266,35 @@ setTimeout(carousel, 2000); // Change image every 2 seconds
 
     <div class="sponsor-container">
 
-        <img src="./res/hcl.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/hcl.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/cinthol.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/times.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/pothys.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/arun_excello.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/white_duck.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/behindwoods.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/novotel.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/adfarm.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/mirchi.jpg" alt="" height="100%" width="100%" class="mySlide" >
+            <img src="./res/fitness.jpg" alt="" height="100%" width="100%" class="mySlide" >    
 
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlide");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+                </script>
+            
 
 
         <!-- macha just copy paste the one line above and change the src to the sponsorship logos 
