@@ -35,7 +35,7 @@ body {
 }
 #nav
 {
-    background: transparent !important;
+    background:black !important;
     transition: 0.5s;
 }
 
@@ -49,7 +49,7 @@ body {
     padding: 0 8px 10px 8px;
     text-decoration: none;
     display: inline-block;
-    color: #000;
+    color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -84,11 +84,11 @@ body {
   
   .nav-menu ul {
     margin: 4px 0 0 0;
-    border: 1px solid #e7e7e7;
+    border: 1px solid black;
   }
   
   .nav-menu ul li {
-    background: #fff;
+    background: black;
   }
   
   .nav-menu ul li:first-child {
@@ -731,7 +731,7 @@ body {
         position: relative;
         top:500px;
         left: 60px;
-        width: 50%;
+        width: 40%;
         height: 80px;
         
     }
@@ -747,7 +747,7 @@ body {
         overflow: hidden;
         background: none !important;
         height: 400px;
-        width: 325px;
+        width: 300px;
         top: 550px;
         position: relative;
         left: 35px;
